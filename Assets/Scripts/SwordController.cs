@@ -5,7 +5,7 @@ using UnityEngine;
 public class SwordController : Weapon
 {
     [Tooltip("The point at which raycast should be done on this sword, to check if it hit an enemy")]
-    [SerializeField]GameObject m_HitPoint = null;
+    [SerializeField] GameObject m_HitPoint = null;
 
     //Whether the an enemy has been hit
     GameObject m_HitEnemy = null;
@@ -18,7 +18,7 @@ public class SwordController : Weapon
 
     //Length of the raycast when swinging sword
     float m_SwingDistance = 1.0f;
-    
+
     //[Tooltip("Collider of where the sword will be swung")]
     //[SerializeField] BoxCollider m_HitArea = null;
 
@@ -32,18 +32,24 @@ public class SwordController : Weapon
     void Update()
     {
         //if the sword has been swung and there is an enemy
-        if(m_SwordSwung && m_HitEnemy)
-		{
+        if (m_SwordSwung && m_HitEnemy)
+        {
 
 
             m_SwordSwung = false;
-		}
+        }
 
 
 
 
         m_HitEnemy = null;
     }
+
+    public  void PerformRayCast() 
+    {
+
+    }
+
 
 	private void FixedUpdate()
 	{
