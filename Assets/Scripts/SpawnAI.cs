@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class SpawnAI : MonoBehaviour
 {
-    [SerializeField] GameObject m_AIPrefab;
-    [SerializeField] GameObject m_RedLocation;
-    [SerializeField] GameObject m_BlueLocation;
-    [SerializeField] Material m_BlueMaterial;
+    [SerializeField] GameObject m_AIPrefab = null;
+    [SerializeField] GameObject m_RedLocation = null;
+    [SerializeField] GameObject m_BlueLocation = null;
+    [SerializeField] Material m_BlueMaterial = null;
 
     GameObject m_Red;
     GameObject m_Blue;
@@ -21,6 +21,20 @@ public class SpawnAI : MonoBehaviour
             m_Blue = Instantiate(m_AIPrefab, m_BlueLocation.transform.position, m_BlueLocation.transform.rotation);
 
             m_Blue.GetComponent<MeshRenderer>().material = m_BlueMaterial;
+
+
+
+
+
+
+            var redAI = m_Red.GetComponent<AiController>();
+            var blueAI = m_Blue.GetComponent<AiController>();
+
+            redAI.SetWeapon(Weapon.Type.Bow);
+            blueAI.SetWeapon(Weapon.Type.Pike);
+
+            redAI.m_Opponent = m_Blue;
+            blueAI.m_Opponent = m_Red;
         }
 
         // Update is called once per frame

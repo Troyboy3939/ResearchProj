@@ -4,77 +4,77 @@ using UnityEngine;
 
 public class SwordController : Weapon
 {
-    [Tooltip("The point at which raycast should be done on this sword, to check if it hit an enemy")]
-    [SerializeField] GameObject m_HitPoint = null;
-
-    //Whether the an enemy has been hit
-    GameObject m_HitEnemy = null;
-
-    //Whether the sword has been swung
-    bool m_SwordSwung = false;
-
-    //Whether the sword is about to be swung
-    bool m_SwingingSword = false;
-
-    //Length of the raycast when swinging sword
-    float m_SwingDistance = 1.0f;
-
-    //[Tooltip("Collider of where the sword will be swung")]
-    //[SerializeField] BoxCollider m_HitArea = null;
+    Animator m_Animator = null;
 
     // Start is called before the first frame update
     void Start()
     {
         m_Type = Type.Sword;
+
+        m_Animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //if the sword has been swung and there is an enemy
-        if (m_SwordSwung && m_HitEnemy)
-        {
-
-
-            m_SwordSwung = false;
-        }
-
-
-
-
-        m_HitEnemy = null;
+ 
     }
 
-    public  void PerformRayCast() 
-    {
 
+	public override void Attack()
+	{
+        Debug.Log("Sword Attack");
+        if (m_Animator)
+		{
+            if (m_Animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !m_Animator.IsInTransition(0))
+            { 
+                m_Animator.SetTrigger("attackRight");
+            } 
+		}
+	}
+
+	public  void PerformRayCast() 
+    {
+        if (m_HitPoint != null)
+        {
+            var collider = m_HitPoint.GetComponent<SphereCollider>();
+
+
+            if (collider)
+            {
+                var hits = Physics.SphereCastAll(m_HitPoint.transform.position, 0.5f, m_HitPoint.transform.forward, 0.5f);
+
+                //for ev 
+                foreach (var rayHit in hits)
+                {
+                    if (rayHit.transform.tag == "Player" || rayHit.transform.tag == "AI")
+                    {
+                        var hitObject = rayHit.transform.gameObject;
+
+                        //if it is not you
+                        if (hitObject != gameObject)
+                        {
+                            var fighterScript = hitObject.GetComponent<FighterScript>();
+
+                            
+                            fighterScript.SetHealth(fighterScript.GetHealth() - (m_Damage));
+
+                            return;
+                        }
+
+
+                    }
+                }
+            }
+
+            
+        }
     }
 
 
 	private void FixedUpdate()
 	{
-		if(m_SwingingSword && m_HitPoint != null)
-		{
-            m_SwordSwung = true;
-            RaycastHit hit = new RaycastHit();
-
-            
-
-            Physics.Raycast(m_HitPoint.transform.position,m_HitPoint.transform.forward * m_SwingDistance,out hit);
-
-            if(hit.transform.tag == "AI")
-			{
-                m_HitEnemy = hit.transform.gameObject;
-                return;
-			}
-
-            m_HitEnemy = null;
-		}
-	}
-
-	public void SetHitEnemy(GameObject enemy)
-	{
-        m_HitEnemy = enemy;
+	
 	}
 
 
