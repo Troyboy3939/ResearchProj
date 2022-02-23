@@ -107,7 +107,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_AIPrefab: {fileID: 1170132340426764183, guid: cba1731180cc3c04086d8b91687f8eae,
     type: 3}
+  m_PlayerPrefab: {fileID: 7142688356337507644, guid: 569a800ac1737b34e87c823d593f9114,
+    type: 3}
   m_RedLocation: {fileID: 4791799472938299435}
   m_BlueLocation: {fileID: 3323927739373678124}
   m_BlueMaterial: {fileID: 2100000, guid: 140aefdfe19829345adbd214d518e364, type: 2}
-  m_RedMaterial: {fileID: 2100000, guid: edc3cbfe0c83ae04ba5c5bc089060dbf, type: 2}
+  m_Narrow: {fileID: 0}
+  m_Horseshoe: {fileID: 0}
+  m_N1: {fileID: 0}
+  m_N2: {fileID: 0}
+  m_H1: {fileID: 0}
+  m_H2: {fileID: 0}

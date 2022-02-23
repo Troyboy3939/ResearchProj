@@ -23,7 +23,7 @@ public class Movement : MonoBehaviour
             float vertical = Input.GetAxisRaw("Vertical");
 
             //create a vector
-            Vector3 movement = new Vector3(horizontal,0.0f,vertical);
+            var movement = new Vector3(horizontal,0.0f,vertical);
 
             //normalise it 
             movement.Normalize();
@@ -31,17 +31,36 @@ public class Movement : MonoBehaviour
             
             movement *= m_Speed * Time.deltaTime;
 
-            transform.position += movement;
+           
+
+            var cc = GetComponent<CharacterController>();
+
+            cc.Move(movement);
 
 
-            if (Input.GetAxisRaw("Strafe") < 0.9f)
-            {
-                if (movement.sqrMagnitude > 0.0f)
-                {
-                    transform.forward = movement.normalized;
-                }
-            }
 
+            var camRot = Camera.main.transform.rotation;
+
+            var x = camRot.x;
+
+            var forward = Vector3.forward;
+
+
+
+
+     
+
+
+            transform.LookAt(Camera.main.ScreenToWorldPoint(Input.mousePosition + new Vector3(0.0f, 0.0f, 39)));
+
+            var euler = transform.rotation;
+
+            euler.x = 0.0f;
+            euler.z = 0.0f;
+
+            transform.rotation = euler;
+
+            //transform.Rotate(axis: Vector3.up, angle: Mathf.Acos(Vector3.Dot(toMouse.normalized, transform.forward)));
 
 		}
     }

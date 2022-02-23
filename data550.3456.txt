@@ -1,0 +1,270 @@
+Match 1:
+AI Match: True
+Result: Red
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 2:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 3:
+AI Match: True
+Result: Red
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 4:
+AI Match: True
+Result: Blue
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 5:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 6:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 7:
+AI Match: True
+Result: Red
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 8:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 9:
+AI Match: True
+Result: Blue
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 10:
+AI Match: True
+Result: Red
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 11:
+AI Match: True
+Result: Red
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 12:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 13:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 14:
+AI Match: True
+Result: Blue
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 15:
+AI Match: True
+Result: Blue
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 16:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 17:
+AI Match: True
+Result: Red
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 18:
+AI Match: True
+Result: Blue
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 19:
+AI Match: True
+Result: Red
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 20:
+AI Match: True
+Result: Red
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 21:
+AI Match: True
+Result: Blue
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 22:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 23:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 24:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 3
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 25:
+AI Match: True
+Result: Red
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 26:
+AI Match: True
+Result: Blue
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 27:
+AI Match: True
+Result: Red
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 28:
+AI Match: True
+Result: Red
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 29:
+AI Match: True
+Result: Red
+Map: 2
+Blue Decision Making Technique: 3
+Blue Weapon: Sword
+Red Weapon: Sword
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 30:
+AI Match: True
+Result: Red
+Map: 0
+Blue Decision Making Technique: 3
+Blue Weapon: Bow
+Red Weapon: Bow
+Red Decision Making Technique: 0
+---------------------------------------------------------

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 20406169456178447}
   - component: {fileID: 2727773312320271395}
   - component: {fileID: 2197930264506800540}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Shaft
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,9 +105,9 @@ GameObject:
   - component: {fileID: 2806220282974726972}
   - component: {fileID: 6736401258931324463}
   - component: {fileID: 1215095985654761587}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Pike
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -174,9 +174,9 @@ GameObject:
   - component: {fileID: 7225344538172186533}
   - component: {fileID: 6405509369088509318}
   - component: {fileID: 3259204846071691051}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Tip
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,9 +297,9 @@ GameObject:
   - component: {fileID: 2207304544787239704}
   - component: {fileID: 4723376573262764277}
   - component: {fileID: 2628199532090188998}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: HitSphere
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -312,7 +312,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8159087412556599260}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.31, z: -0.03}
+  m_LocalPosition: {x: 0, y: 1.06, z: -0.03}
   m_LocalScale: {x: 1, y: 1.5990307, z: 1.0000694}
   m_Children: []
   m_Father: {fileID: 2806220282974726972}
@@ -338,4 +338,4 @@ SphereCollider:
   m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.5
-  m_Center: {x: 0, y: -7.275958e-12, z: 0}
+  m_Center: {x: 0, y: 0.038772624, z: -0.000000027961207}

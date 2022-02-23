@@ -1,0 +1,35 @@
+Match 1:
+AI Match: True
+Result: Blue
+Map: 2
+Blue Decision Making Technique: 1
+Red Decision Making Technique: 2
+---------------------------------------------------------
+Match 2:
+AI Match: True
+Result: Blue
+Map: 0
+Blue Decision Making Technique: 1
+Red Decision Making Technique: 2
+---------------------------------------------------------
+Match 3:
+AI Match: True
+Result: Blue
+Map: 0
+Blue Decision Making Technique: 1
+Red Decision Making Technique: 2
+---------------------------------------------------------
+Match 4:
+AI Match: True
+Result: Red
+Map: 2
+Blue Decision Making Technique: 1
+Red Decision Making Technique: 2
+---------------------------------------------------------
+Match 5:
+AI Match: True
+Result: Red
+Map: 1
+Blue Decision Making Technique: 1
+Red Decision Making Technique: 2
+---------------------------------------------------------

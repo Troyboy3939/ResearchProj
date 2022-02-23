@@ -1,0 +1,30 @@
+Match 1:
+Match Type: True
+Result: Blue
+Blue Decision Making Technique: 4
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 2:
+Match Type: True
+Result: Tie
+Blue Decision Making Technique: 4
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 3:
+Match Type: True
+Result: Red
+Blue Decision Making Technique: 4
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 4:
+Match Type: True
+Result: Blue
+Blue Decision Making Technique: 4
+Red Decision Making Technique: 0
+---------------------------------------------------------
+Match 5:
+Match Type: True
+Result: Tie
+Blue Decision Making Technique: 4
+Red Decision Making Technique: 0
+---------------------------------------------------------

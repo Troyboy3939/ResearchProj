@@ -10,12 +10,27 @@ public class BowController : Weapon
     [Tooltip("How long they should wait before they can shoot again")]
     [SerializeField] float m_ReloadTime = 2.0f;
 
+
+    FighterScript m_Controller = null;
+
     float m_Timer = -1.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+
+        m_Controller = GetComponent<FighterScript>();
+
+        if (m_Controller)
+        {
+            var skill = m_Controller.GetBowSkill();
+
+
+            m_Damage = Mathf.Lerp(m_Damage, m_Damage * 1.5f, skill);
+        }
+
+
+
     }
 
     // Update is called once per frame

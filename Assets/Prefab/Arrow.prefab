@@ -14,12 +14,12 @@ GameObject:
   - component: {fileID: 2704787436838052884}
   - component: {fileID: 2704787436838052885}
   - component: {fileID: 362193637393344482}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &2704787436838058985
 Transform:
@@ -123,4 +123,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Damage: 25
+  m_MaxSpeed: 20
   m_Creator: {fileID: 0}

@@ -1,0 +1,45 @@
+Match 1:
+AI Match: False
+Result: Tie
+Map: 2
+Blue Decision Making Technique: 5
+Blue Weapon: Pike
+Red Weapon: Bow
+Red Decision Making Technique: 4
+---------------------------------------------------------
+Match 2:
+AI Match: False
+Result: Tie
+Map: 2
+Blue Decision Making Technique: 5
+Blue Weapon: Sword
+Red Weapon: Pike
+Red Decision Making Technique: 4
+---------------------------------------------------------
+Match 3:
+AI Match: False
+Result: Tie
+Map: 2
+Blue Decision Making Technique: 5
+Blue Weapon: Pike
+Red Weapon: Bow
+Red Decision Making Technique: 4
+---------------------------------------------------------
+Match 4:
+AI Match: False
+Result: Tie
+Map: 2
+Blue Decision Making Technique: 5
+Blue Weapon: Sword
+Red Weapon: Pike
+Red Decision Making Technique: 4
+---------------------------------------------------------
+Match 5:
+AI Match: False
+Result: Tie
+Map: 2
+Blue Decision Making Technique: 5
+Blue Weapon: Pike
+Red Weapon: Pike
+Red Decision Making Technique: 4
+---------------------------------------------------------
